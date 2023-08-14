@@ -1,0 +1,51 @@
+body {
+  background-color: #f6f6f6;
+  margin: 0;
+  padding: 0;
+}
+.box-area {
+  width: 50vw;
+  height: 100vh;
+}
+span {
+  color: black;
+}
+.s-l-container {
+}
+.log-in-div {
+  cursor: default;
+  background: #fff;
+  font-weight: 700;
+  color: #0b0b0b;
+  position: relative;
+  width: 25vw;
+}
+.log-in {
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: 4px 4px 0 0;
+}
+.sign-up {
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  box-shadow: none;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
+.sign-up-div {
+  width: 25vw;
+  background: #f6f6f6;
+  font-weight: 700;
+  position: relative;
+}
+.sign-up:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}

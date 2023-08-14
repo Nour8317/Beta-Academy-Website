@@ -1,16 +1,22 @@
+.nav{
+    position: sticky;
+    top: 0;
+}
+span{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
 body {
   background-color: #f6f6f6;
   margin: 0;
   padding: 0;
-  text-transform: capitalize;
 }
 .box-area {
   width: 50vw;
   height: 100vh;
 }
-span {
-  color: black;
-}
+
 .s-l-container {
     padding-top: 25px;
 }
@@ -46,7 +52,7 @@ span {
   font-weight: 700;
 }
 .sign-up:hover {
-  border-bottom: 1px solid black;
+
   color: black;
 }
 .form-container {
@@ -61,7 +67,15 @@ span {
   width: 40vw;
   height: 6vh;
   margin: 1rem;
-  outline: blue;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+.email-address:focus,
+.password:focus{
+    border-bottom-color: #007BFF;
+    transition-duration: 200ms;
 
 }
 .p-1 {
@@ -81,30 +95,21 @@ span {
 .smaller-2{
     font-size: 13px;
 }
-.or-separator-container::before{
-    content: "";
-    border-top: 1px solid #cbd5de;
-}
-.forgot:hover{
-    color:black;
-    text-decoration: none;
-}
+
+
 .btn{
     color: white;
     font-size: 20px;
     text-transform: capitalize;
-    background-color: blue;
+    background-color:  #007BFF;
     font-family: "PolySans", sans-serif;
-width: 35vw;
+  width: 35vw;
 }
-.btn:hover{
-    color: black;
-    font-size: 20.2px;
-}
-a:hover{
-color: black;
-text-decoration: none;
-}
+
 .password,.forgot,.smaller-2{
     margin-bottom: 1.9rem;
+}
+.btn:hover{
+  background-color: #1b5da3;
+  color: white;
 }

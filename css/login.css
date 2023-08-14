@@ -2,6 +2,7 @@ body {
   background-color: #f6f6f6;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 .box-area {
   width: 50vw;
@@ -11,13 +12,13 @@ span {
   color: black;
 }
 .s-l-container {
+    padding-top: 25px;
 }
 .log-in-div {
   cursor: default;
   background: #fff;
   font-weight: 700;
   color: #0b0b0b;
-  position: relative;
   width: 25vw;
 }
 .log-in {
@@ -43,9 +44,67 @@ span {
   width: 25vw;
   background: #f6f6f6;
   font-weight: 700;
-  position: relative;
 }
-.sign-up:hover{
-    border-bottom: 1px solid black;
+.sign-up:hover {
+  border-bottom: 1px solid black;
+  color: black;
+}
+.form-container {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.email-address,
+.password {
+  width: 40vw;
+  height: 6vh;
+  margin: 1rem;
+  outline: blue;
+
+}
+.p-1 {
+  text-align: center;
+  font-family: "PolySans", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: black;
+}
+.small-word {
+    margin-bottom: 0.6rem;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+.smaller-2{
+    font-size: 13px;
+}
+.or-separator-container::before{
+    content: "";
+    border-top: 1px solid #cbd5de;
+}
+.forgot:hover{
+    color:black;
+    text-decoration: none;
+}
+.btn{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: blue;
+    font-family: "PolySans", sans-serif;
+width: 35vw;
+}
+.btn:hover{
     color: black;
+    font-size: 20.2px;
+}
+a:hover{
+color: black;
+text-decoration: none;
+}
+.password,.forgot,.smaller-2{
+    margin-bottom: 1.9rem;
 }

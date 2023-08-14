@@ -1,0 +1,82 @@
+span{
+    color: black;
+    font-weight: bold;
+}
+
+.login{
+    width: 5vw;
+    font-size: small;
+}
+
+.signup{
+    width: 5vw;
+    font-size: small;
+}
+.slider{
+    height: 70vh;
+    margin: 1vh;
+}
+
+.s-item{
+    object-fit: cover;
+}
+
+.title{
+    /* color: #007BFF; */
+    color: #1b5da3;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.con{
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro{
+    margin: 1rem;
+}
+
+.breif{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footertitle{
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    background: #1b5da3; 
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30vh;
+    color: black;
+    margin-top: 5rem;
+    height: 40vh;
+}
+.iconlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.l-item:hover{
+    background-color: white;
+    transition-delay: 0ms;
+    transition-duration: 200ms;
+}

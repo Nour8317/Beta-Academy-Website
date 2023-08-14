@@ -1,30 +1,13 @@
 span{
     color: black;
     font-weight: bold;
-}
-
-.login{
-    width: 5vw;
-    font-size: small;
-}
-
-.signup{
-    width: 5vw;
-    font-size: small;
-}
-.slider{
-    height: 70vh;
-    margin: 1vh;
-}
-
-.s-item{
-    object-fit: cover;
+    font-size: x-large;
 }
 
 .title{
     /* color: #007BFF; */
     color: #1b5da3;
-    font-size: larger;
+    font-size:x-large;
     font-weight: bold;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -32,22 +15,14 @@ span{
 }
 
 .con{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 5rem;
     font-weight: bold;
+    font-size: large;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .intro{
     margin: 1rem;
-}
-
-.breif{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    margin: 3rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footertitle{
@@ -79,4 +54,33 @@ span{
     background-color: white;
     transition-delay: 0ms;
     transition-duration: 200ms;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+}
+.beta-logo{
+    height: 70vh;
+    width: 30vw;
+}
+.home{
+    display: flex;
+    background: linear-gradient(to left ,#193e66,#3193fc );
+    margin: 0.3rem;
+    color: white;
+}
+.homeintro{
+    margin: 3rem;
+}
+
+.start-now{
+    display: flex;
+    margin: 4rem;
+    width: 9vw;
+    height: 7vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -1,85 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beta Academy</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/Home.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <link rel="stylesheet" href="../css/Home.css" />
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"><span>Beta</span> Academy</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarScroll">
-        
-      <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll d-flex ms-auto justify-content-between" style="--bs-scroll-height: 100px;">
-        
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
-        </li>
-        
-        <li class="nav-item">
-          <a class="nav-link" href="courses.html">Courses</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Beta
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">About Us</a></li>
-            <li><a class="dropdown-item" href="https://goo.gl/maps/o9r25HqLjoBXxakd7">Location</a></li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span>Beta</span> Academy</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul
+            class="navbar-nav my-2 my-lg-0 navbar-nav-scroll d-flex ms-auto justify-content-between"
+            style="--bs-scroll-height: 100px"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">Courses</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarScrollingDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Beta
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarScrollingDropdown"
+              >
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://goo.gl/maps/o9r25HqLjoBXxakd7"
+                    >Location</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="login.html"
+                ><button type="button" class="btn btn-light login">
+                  Sign in
+                </button></a
+              >
+            </li>
           </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="home">
+      <img src="../images/Beta-logo.jpg" alt="" class="beta-logo" />
+
+      <h1 class="homeintro">
+        Unlocking Potential, Building Futures: Beta Academy empowers students
+        with cutting-edge education in technology and engineering, fostering
+        innovation and expertise for a dynamic world.
+        <button type="button" class="btn btn-success start-now">
+          Start Now
+        </button>
+      </h1>
+    </div>
+
+    <div class="intro">
+      <div class="title">Innovators:</div>
+      <div class="con">
+        Academy offers cutting-edge courses and hands-on workshops for computer
+        science and engineering students,<br />
+        fostering practical skills and innovation.
+      </div>
+      <br />
+
+      <div class="title">Expert Faculty:</div>
+      <div class="con">
+        Led by industry experts, our curriculum blends theory with real-world
+        applications,<br />
+        preparing students for dynamic tech careers.
+      </div>
+      <br />
+
+      <div class="title">Collaborative Learning:</div>
+      <div class="con">
+        Our community-driven approach encourages teamwork, communication, and
+        interdisciplinary collaboration,<br />
+        vital in today's tech landscape.
+      </div>
+      <br />
+
+      <div class="title">Adapting to Change:</div>
+      <div class="con">
+        With a commitment to staying current, Beta Academy ensures students are
+        equipped with the latest tools and knowledge,<br />
+        staying ahead in tech trends.
+      </div>
+      <br />
+
+      <div class="title">Future Tech Leaders:</div>
+      <div class="con">
+        Beta Academy propels students towards becoming proficient professionals
+        and visionary leaders,<br />
+        shaping the future of technology.
+      </div>
+    </div>
+
+    <div class="footer-content">
+      <h3 class="footertitle">Beta Academy</h3>
+      <p class="text">
+        Unlocking Potential, Building Futures: Beta Academy empowers students
+        with cutting-edge education in technology and engineering,<br />
+        fostering innovation and expertise for a dynamic world.
+      </p>
+      <ul class="iconlist">
+        <li class="l-item">
+          <a href="https://www.facebook.com/BetaAcademy.B/"
+            ><img src="../Icons/icons8-facebook-50.png" alt
+          /></a>
         </li>
-        <li><a href="login.html"><button type="button" class="btn btn-light login">Sign in</button></a></li>
+        <li class="l-item">
+          <a
+            href="https://www.linkedin.com/company/beta-training-academy/?fbclid=IwAR2wqG5S2cjkfpSv4adkRRwAQCPTzfFGJ8msTuuOK7i1PduFQvPu-awxL8A"
+            ><img src="../Icons/icons8-linkedin-50.png" alt
+          /></a>
+        </li>
       </ul>
     </div>
-  </div>
-</nav>
-
-<div class="home">
-  <img src="../images/Beta-logo.jpg" alt="" class="beta-logo">
-  <h1 class="homeintro">Unlocking Potential, Building Futures: Beta Academy empowers students with cutting-edge education in technology and engineering,
-    fostering innovation and expertise for a dynamic world. <button type="button" class="btn btn-success start-now">Start Now</button></h1>
-    
-    
-</div>
-
-<div class="intro">
-    <div class="title">Innovators:</div> 
-    <div class="con"> Academy offers cutting-edge courses and hands-on workshops for computer science and engineering students,<br> fostering practical skills and innovation.</div>
-    <br>
-    
-    <div class="title">Expert Faculty:</div>
-    <div class="con">Led by industry experts, our curriculum blends theory with real-world applications,<br> preparing students for dynamic tech careers.</div>
-    <br>
-
-    <div class="title">Collaborative Learning:</div> 
-    <div class="con">Our community-driven approach encourages teamwork, communication, and interdisciplinary collaboration,<br> vital in today's tech landscape.</div>
-    <br>
-    
-    <div class="title">Adapting to Change:</div> 
-    <div class="con">With a commitment to staying current, Beta Academy ensures students are equipped with the latest tools and knowledge,<br> staying ahead in tech trends.</div>
-    <br>
-
-    <div class="title">Future Tech Leaders:</div> 
-    <div class="con">Beta Academy propels students towards becoming proficient professionals and visionary leaders,<br> shaping the future of technology.</div>
-</div>
-
-<div class="footer-content">
-  <h3 class="footertitle">Beta Academy</h3>
-  <p class="text">Unlocking Potential, Building Futures: Beta Academy empowers students with cutting-edge education in technology and engineering,<br> fostering innovation and expertise for a dynamic world.</p>
-  <ul class="iconlist">
-    <li class="l-item"><a href="https://www.facebook.com/BetaAcademy.B/"><img src="../Icons/icons8-facebook-50.png" alt /></a></li>
-    <li class="l-item"><a href="https://www.linkedin.com/company/beta-training-academy/?fbclid=IwAR2wqG5S2cjkfpSv4adkRRwAQCPTzfFGJ8msTuuOK7i1PduFQvPu-awxL8A"><img src="../Icons/icons8-linkedin-50.png" alt /></a></li>
-  </ul>
-</div>
     <script src="../js/bootstrap.js"></script>
-</body>
+  </body>
 </html>

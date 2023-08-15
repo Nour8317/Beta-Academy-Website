@@ -77,8 +77,6 @@ span{
 .start-now{
     display: flex;
     margin: 4rem;
-    width: 9vw;
-    height: 7vh;
     align-items: center;
     justify-content: center;
     font-weight: bold;

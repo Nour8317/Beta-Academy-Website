@@ -1,3 +1,6 @@
+*{
+  font-family: "PolySans", sans-serif;
+}
 .nav {
   position: sticky;
   top: 0;
@@ -66,7 +69,8 @@ body {
 .email-address,
 .password,
 .first-name,
-.last-name {
+.last-name,
+.phone-num {
   width: 40vw;
   height: 6vh;
   margin: 1rem;
@@ -78,7 +82,8 @@ body {
 .email-address:focus,
 .password:focus,
 .first-name:focus,
-.last-name:focus {
+.last-name:focus, 
+.phone-num:focus{
   border-bottom-color: #007bff;
   transition-duration: 200ms;
 }

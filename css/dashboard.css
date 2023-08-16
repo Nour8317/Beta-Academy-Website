@@ -1,0 +1,46 @@
+*{
+  font-family: "PolySans", sans-serif;
+}
+span{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.card{
+    margin: 0.5rem;
+}
+.footertitle{
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    background: #1b5da3; 
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30vh;
+    color: black;
+    margin-top: 5rem;
+    height: 40vh;
+}
+.iconlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.l-item:hover{
+    background-color: white;
+    transition-delay: 0ms;
+    transition-duration: 200ms;
+}

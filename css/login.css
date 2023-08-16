@@ -1,3 +1,6 @@
+*{
+  font-family: "PolySans", sans-serif;
+}
 .nav{
     position: sticky;
     top: 0;

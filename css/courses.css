@@ -1,3 +1,6 @@
+*{
+  font-family: "PolySans", sans-serif;
+}
 header {
   display: flex;
   width: 100vw;
@@ -45,4 +48,35 @@ justify-content: center;
 }
 .search-btn:hover{
     background-color: blue;
+}
+
+.footertitle{
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    background: #1b5da3; 
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30vh;
+    color: black;
+    margin-top: 5rem;
+    height: 40vh;
+}
+.iconlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+.l-item:hover{
+    background-color: white;
+    transition-delay: 0ms;
+    transition-duration: 200ms;
 }

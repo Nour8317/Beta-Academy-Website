@@ -60,11 +60,13 @@ span{
 }
 
 .nav{
+    width: 100%;
     position: sticky;
     top: 0;
 }
 
 .home{
+    width: 100%;
     display: flex; 
     background: linear-gradient(to left ,#5086c0,#264e79 ); 
     border-bottom-left-radius: 100%;
@@ -81,5 +83,5 @@ span{
     align-items: center;
     justify-content: center;
     font-weight: bold;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 

@@ -66,12 +66,13 @@ span{
 }
 
 .home{
+    
     width: 100%;
     display: flex; 
     background: linear-gradient(to left ,#5086c0,#264e79 ); 
     border-bottom-left-radius: 100%;
      /* margin: 0.3rem;  */
-    color:white;
+    color:white black;
 }
  .homeintro{
     margin: 3rem;

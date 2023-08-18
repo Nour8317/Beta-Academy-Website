@@ -86,3 +86,7 @@ span{
     font-weight: bold;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
+.beta-logo{
+    width: 50vw;
+    height: 70vh;
+}

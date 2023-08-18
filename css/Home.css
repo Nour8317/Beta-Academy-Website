@@ -63,25 +63,23 @@ span{
     position: sticky;
     top: 0;
 }
-.beta-logo{
-    height: 70vh;
-    width: 30vw;
-}
-.home{
-    display: flex;
-    background: linear-gradient(to left ,#193e66,#3193fc );
-    margin: 0.3rem;
-    color: white;
-}
-.homeintro{
-    margin: 3rem;
-}
 
-.start-now{
+.home{
+    display: flex; 
+    background: linear-gradient(to left ,#5086c0,#264e79 ); 
+    border-bottom-left-radius: 100%;
+     /* margin: 0.3rem;  */
+    color:white;
+}
+ .homeintro{
+    margin: 3rem;
+} 
+
+ .start-now{
     display: flex;
     margin: 4rem;
     align-items: center;
     justify-content: center;
     font-weight: bold;
       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+} 

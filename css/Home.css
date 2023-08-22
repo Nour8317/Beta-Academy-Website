@@ -8,7 +8,6 @@ span{
 }
 
 .title{
-    /* color: #007BFF; */
     color: #1b5da3;
     font-size:x-large;
     font-weight: bold;
@@ -22,10 +21,6 @@ span{
     font-weight: bold;
     font-size: large;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.intro{
-    margin: 1rem;
 }
 
 .footertitle{

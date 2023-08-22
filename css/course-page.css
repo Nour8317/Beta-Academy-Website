@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+.vid-title{
+    font-size: small;
+}
+.main-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+}
+.video-list {
+    height: 60vh;
+    width: 75vw;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #0444; 
+    margin: 3rem;
+}
+.vid-container{
+    width: 70vw;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem;
+}
+.vid{
+    width: 7vw;
+    margin: 0.5rem;
+    border: solid;
+    border-color: black;
+    border: 1px;
+}
+.vid-title{
+    margin-top: 2rem;
+    font-size: large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}

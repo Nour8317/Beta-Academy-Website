@@ -1,53 +1,77 @@
-.span-1{
-color: black;
+.span-1 {
+  color: black;
 }
-.the-container{
+.the-container {
   padding: 0;
   margin: 0;
-  width:100%;
+  width: 100%;
   flex-wrap: wrap;
-  
+
   /* overflow: hidden; */
 }
-.the-header{
+.the-header {
   margin: 0;
-  width:100vw;
-  height: 52vh;
+  width: 100vw;
+  height: 53.5vh;
   border-bottom-left-radius: 4.5rem;
 }
 
-
-.h-1{
+.h-1 {
   color: white;
   font-size: 30px;
   font-weight: bold;
   text-transform: capitalize;
 }
-.the-header{
-display: flex;
-flex-direction: row;
-margin:0 auto;
-align-items: center;
-justify-content: center;
+.the-header {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
-.the-header-text{
+.the-header-text {
   /* text-align: left; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 0.5rem;
 }
-.header-description{
+.header-description {
   color: white;
   font-size: 20px;
-
 }
-.searchbar{
-  width:43vw;
+.searchbar {
+  width: 43vw;
   margin-bottom: 3rem;
 }
-.search{
-  width: 43vw;
+.search {
+  /* width: 43vw; */
+  width: 100%;
   height: 9vh;
   padding-left: 1.5rem;
+}
+/* .cards { */
+  /* width:100%; */
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+/* } */
+.container-2{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+}
+.card{
+  margin:1rem;
+  width: 20vw;
+}
+/* .card a{
+  display: flex;
+  justify-content: center;
+  /* align-items: end; */
+} */
+.btn-j{
+  display: flex;
+  justify-content: flex-end;
 }

@@ -1,4 +1,8 @@
-
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 span{
     color: black;
     font-weight: bold;
@@ -13,7 +17,6 @@ span{
   width: 100%;
   flex-wrap: wrap;
 
-  /* overflow: hidden; */
 }
 .the-header {
   margin: 0;
@@ -57,18 +60,35 @@ span{
   padding-left: 1.5rem;
 }
 
-.container-2{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 1rem;
+.h-2{
+  padding-top: 1rem;
+  color: black;
+  font-size: 35px;
+}
+.card-img-top{
+  border-radius: 35px;
+  padding: 20px;
 }
 .card{
-  margin:1rem;
-  width: 20vw;
+  border-radius: 13px;
 }
-
-.btn-j{
-  display: flex;
-  justify-content: flex-end;
+.card-body{
+padding: 25px;
+margin-top: 15px;
+}
+.btn-primary{
+  border-radius: 5px;
+  width: 10vw;
+}
+.btn-primary:hover{
+background-color: black;
+}
+h5{
+   color:black;
+   font-size: 25px;
+  font-weight: bolder;
+}
+img{
+  height: 35vh;
+  
 }

@@ -39,8 +39,4 @@ span{
     display: flex;
     justify-content: center;
 }
-.l-item:hover{
-    background-color: white;
-    transition-delay: 0ms;
-    transition-duration: 200ms;
-}
+

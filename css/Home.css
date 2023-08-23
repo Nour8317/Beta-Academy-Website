@@ -1,6 +1,3 @@
-*{
-  font-family: "PolySans", sans-serif;
-}
 span{
     color: black;
     font-weight: bold;
@@ -48,11 +45,7 @@ span{
     display: flex;
     justify-content: center;
 }
-.l-item:hover{
-    background-color: white;
-    transition-delay: 0ms;
-    transition-duration: 200ms;
-}
+
 
 .nav{
     width: 100%;

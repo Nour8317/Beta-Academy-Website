@@ -1,3 +1,9 @@
+
+span{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
 .span-1 {
   color: black;
 }
@@ -50,12 +56,7 @@
   height: 9vh;
   padding-left: 1.5rem;
 }
-/* .cards { */
-  /* width:100%; */
-  /* flex-wrap: wrap; */
-  /* display: flex; */
-  /* justify-content: space-evenly; */
-/* } */
+
 .container-2{
   display: flex;
   justify-content: center;
@@ -66,11 +67,7 @@
   margin:1rem;
   width: 20vw;
 }
-/* .card a{
-  display: flex;
-  justify-content: center;
-  /* align-items: end; */
-} */
+
 .btn-j{
   display: flex;
   justify-content: flex-end;

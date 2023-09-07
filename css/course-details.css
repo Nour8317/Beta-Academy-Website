@@ -3,6 +3,13 @@
   margin: 0;
   box-sizing: border-box;
 }
+<<<<<<< Updated upstream
+=======
+ .navbar{
+    height: 10vh;
+    box-shadow: 0px 0px 5px;
+} 
+>>>>>>> Stashed changes
 span{
     color: black;
     font-weight: bold;
@@ -14,7 +21,11 @@ span{
     display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< Updated upstream
   background-color: rgb(239, 205, 255);
+=======
+  background-color: rgb(239, 205, 255); 
+>>>>>>> Stashed changes
   margin: 1.5rem;
 }
 .course-cont{

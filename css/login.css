@@ -1,4 +1,11 @@
+<<<<<<< Updated upstream
 
+=======
+ .navbar{
+    height: 10vh;
+    box-shadow: 0px 0px 5px;
+} 
+>>>>>>> Stashed changes
 .nav{
     position: sticky;
     top: 0;
@@ -107,7 +114,7 @@ body {
   background-color:  #007BFF;
   font-family: "PolySans", sans-serif;
   width: 35vw;
-}
+} 
 
 .password,.forgot,.smaller-2{
   margin-bottom: 1.9rem;

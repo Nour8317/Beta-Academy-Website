@@ -1,4 +1,11 @@
 
+<<<<<<< Updated upstream:css/sign up.css
+=======
+ .navbar{
+    height: 10vh;
+    box-shadow: 0px 0px 5px;
+} 
+>>>>>>> Stashed changes:css/signup.css
 .nav {
   position: sticky;
   top: 0;
@@ -114,7 +121,7 @@ body {
   font-family: "PolySans", sans-serif;
   width: 35vw;
   margin-top: 1.5rem;
-}
+} 
 
 .password,
 .forgot{
@@ -123,7 +130,7 @@ body {
 .btn:hover {
   background-color: #1b5da3;
   color: white;
-}
+} 
 .log-in-linking{
     text-decoration: none;
     color: #0b0b0b;

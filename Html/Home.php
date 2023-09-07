@@ -14,9 +14,55 @@ Omar Ahmed Mahmoud.
     <link rel="stylesheet" href="../css/Home.css" />
   </head>
   <body>
+<<<<<<< Updated upstream:Html/Home.html
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary nav ">
+=======
+    <?php
+    session_start();
+    if (isset($_SESSION["logedin"])&& $_SESSION["logedin"] == true) {
+
+      echo '<nav class="navbar navbar-expand-lg navbar-dark bg-primary nav">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="Home.php"><span>Beta</span> Academy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarScroll">
+        
+      <ul class="navbar-nav  my-2 my-lg-0 navbar-nav-scroll d-flex ms-auto justify-content-between" style="--bs-scroll-height: 100px;">
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Home.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="dashboard.php">My Courses</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="courses.php">Courses</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ' . $_SESSION["firstname"] .' 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="myaccount.php?id='.$_SESSION["id"].'">My Account</a></li>
+            <li><a class="dropdown-item" href="logout.php">Logout!</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>';
+    }
+    else{
+       echo '<nav class="navbar navbar-expand-lg navbar-dark bg-primary nav">
+>>>>>>> Stashed changes:Html/Home.php
       <div class="container-fluid">
-        <a class="navbar-brand" href="Home.html"><span>Beta</span> Academy</a>
+        <a class="navbar-brand" href="Home.php"><span>Beta</span> Academy</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,25 +81,13 @@ Omar Ahmed Mahmoud.
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="Home.html"
-                >Home</a
-              >
-            </li>
-
+              <a class="nav-link active" aria-current="page" href="Homephp">Home</a></li>
+            
             <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
+              <a class="nav-link" href="courses.php"> Courses </a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Beta
-              </a>
+              <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Beta</a>
               <ul
                 class="dropdown-menu"
                 aria-labelledby="navbarScrollingDropdown"
@@ -69,17 +103,14 @@ Omar Ahmed Mahmoud.
               </ul>
             </li>
             <li>
-              <a href="login.html"
-                ><button type="button" class="btn btn-light login">
-                  Sign in
-                </button></a
-              >
+             <a href="login.php"><button type="button" class="btn btn-light login">Sign in</button></a> 
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
+    </nav>';
+    }
+    ?>
     <div class="home">
       <img src="../images/beam-woman-sitting-at-desk-and-programming.gif" alt="" class="beta-logo  d-none d-lg-flex" />
 
@@ -87,7 +118,7 @@ Omar Ahmed Mahmoud.
         Unlocking Potential, Building Futures: Beta Academy empowers students
         with cutting-edge education in technology and engineering, fostering
         innovation and expertise for a dynamic world.
-        <a href="courses.html"><button type="button" class="btn btn-success start-now">
+        <a href="courses.php"><button type="button" class="btn btn-success start-now">
           Start Now
         </button>
         </a>

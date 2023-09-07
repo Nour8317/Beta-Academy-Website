@@ -51,8 +51,9 @@ span{
     width: 100%;
     position: sticky;
     top: 0;
+    
 }
-
+                                                
 .home{
     
     width: 100%;
@@ -75,6 +76,6 @@ span{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
 .beta-logo{
-    width: 50vw;
-    height: 70vh;
+    width: 70vw;
+    height: 90vh;
 }

@@ -1,6 +1,4 @@
-*{
-  font-family: "PolySans", sans-serif;
-}
+
 .nav {
   position: sticky;
   top: 0;
@@ -48,6 +46,9 @@ body {
   font-size: 14px;
   box-shadow: none;
   border-radius: 4px 4px 0 0;
+}
+.input-cont{
+  height: 6vh;
 }
 .sign-up-div {
   width: 25vw;

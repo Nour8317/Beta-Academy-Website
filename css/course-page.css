@@ -2,8 +2,15 @@
     margin: 0;
     box-sizing: border-box;
     text-transform: capitalize;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
     font-weight: normal;
+}
+
+
+span{
+    color: black;
+    font-weight: bold;
+    font-size: large;
 }
 .vid-title{
     font-size: small;
@@ -13,22 +20,26 @@
     flex-direction: column;
     justify-content: center;
     margin: 3rem;
+    
 }
 .video-list {
     height: 60vh;
-    width: 75vw;
+    border: 1px  #0444 solid;
+    border-radius: 15px;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #0444; 
+    background-color:  #5372F0; 
+    /* #6C757D */
     margin: 3rem;
 }
 .vid-container{
-    width: 70vw;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
-    margin: 0.5rem;
+    border: 1px #6C757D solid;
+    border-bottom: none;
 }
 .vid{
     width: 7vw;
@@ -42,4 +53,36 @@
     font-size: large;
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.con{
+    margin-left: 5rem;
+    font-weight: bold;
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footertitle{
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    padding-top: 40px;
+    background: #1b5da3; 
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30vh;
+    color: black;
+    margin-top: 5rem;
+    height: 40vh;
+}
+.iconlist{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    justify-content: center;
 }
